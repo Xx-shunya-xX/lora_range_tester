@@ -17,6 +17,12 @@ void setup() {
 	}
 	LoRa.setSyncWord(0xA5);
 	Serial.println("LoRA Initializing OK!");
+	/*
+	LoRa.setTxPower(20);
+	LoRa.setFrequency();
+	LoRa.setSpreadingFactor();
+	LoRa.setSignalBandwidth();
+	*/
 }
 
 void loop() {
